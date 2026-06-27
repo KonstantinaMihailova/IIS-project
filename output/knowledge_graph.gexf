@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-27">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="source" type="string" />
+      <attribute id="1" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="North Macedonia" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="the Republic of North Macedonia" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Southeast Europe" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Kosovo" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Serbia" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bulgaria" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Greece" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Albania" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Macedonia" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="Macedonians" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="South Slavic" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Albanians" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Turks" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Serbs" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Bosniaks" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Aromanians" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Republic of North Macedonia" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Alexander III" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Macedon" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Alexander the Great" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Greek" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Pella" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Alexander" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Aristotle" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="the age of 16" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="the age of 30" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="India" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Alexander the Great" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Cyril" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Ss. Cyril and Methodius University of Skopje" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Methodius University" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Ss. Cyril and Methodius University of Skopje" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Skopje" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Ss. Cyril and Methodius University of Skopje" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="1949" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Ss. Cyril and Methodius University of Skopje" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="Saints Cyril" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Ss. Cyril and Methodius University of Skopje" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="Methodius" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Ss. Cyril and Methodius University of Skopje" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="the Vardar River" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Skopje" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="Balkans" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Skopje" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="Roman" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Skopje" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="Scupi" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Skopje" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="1963" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Skopje" />
+          <attvalue for="1" value="15" />
+        </attvalues>
+      </node>
+      <node id="Standard Macedonian" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Macedonian language" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="1945" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Macedonian language" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="Macedonian" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Macedonian language" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="Cyrillic" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Macedonian language" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="Bulgarian" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Macedonian language" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="Lake Ohrid" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Lake Ohrid" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Europe" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Lake Ohrid" />
+          <attvalue for="1" value="18" />
+        </attvalues>
+      </node>
+      <node id="UNESCO World Heritage Sites" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Lake Ohrid" />
+          <attvalue for="1" value="19" />
+        </attvalues>
+      </node>
+      <node id="Samuel" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Tsar" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="997 to 1014" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ohrid" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="the Byzantine Empire" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="1014" label="DATE">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Basil II" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Samuel of Bulgaria" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Byzantine Christian" label="PERSON">
+        <attvalues>
+          <attvalue for="0" value="Cyril and Methodius" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="Old Church Slavonic" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Cyril and Methodius" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Slavic" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Cyril and Methodius" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="The Byzantine Empire" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="the Eastern Roman Empire" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="the Roman Empire" label="GPE">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="Late Antiquity" label="WORK_OF_ART">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="the Middle Ages" label="LOC">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="Constantinople" label="ORG">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="Christianity" label="NORP">
+        <attvalues>
+          <attvalue for="0" value="Byzantine Empire" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="North Macedonia" target="the Republic of North Macedonia" id="0" weight="1" />
+      <edge source="North Macedonia" target="Southeast Europe" id="1" weight="1" />
+      <edge source="North Macedonia" target="Methodius University" id="2" weight="1" />
+      <edge source="North Macedonia" target="Skopje" id="3" weight="2" />
+      <edge source="North Macedonia" target="South Slavic" id="4" weight="1" />
+      <edge source="North Macedonia" target="Lake Ohrid" id="5" weight="2" />
+      <edge source="North Macedonia" target="Albania" id="6" weight="1" />
+      <edge source="the Republic of North Macedonia" target="Southeast Europe" id="7" weight="1" />
+      <edge source="Kosovo" target="Serbia" id="8" weight="1" />
+      <edge source="Kosovo" target="Bulgaria" id="9" weight="1" />
+      <edge source="Serbia" target="Bulgaria" id="10" weight="1" />
+      <edge source="Serbia" target="Greece" id="11" weight="1" />
+      <edge source="Bulgaria" target="Greece" id="12" weight="1" />
+      <edge source="Bulgaria" target="Albania" id="13" weight="1" />
+      <edge source="Bulgaria" target="Samuel" id="14" weight="2" />
+      <edge source="Bulgaria" target="Tsar" id="15" weight="1" />
+      <edge source="Bulgaria" target="997 to 1014" id="16" weight="1" />
+      <edge source="Greece" target="Albania" id="17" weight="1" />
+      <edge source="Greece" target="the age of 30" id="18" weight="1" />
+      <edge source="Greece" target="India" id="19" weight="1" />
+      <edge source="Albania" target="Lake Ohrid" id="20" weight="1" />
+      <edge source="Macedonians" target="South Slavic" id="21" weight="1" />
+      <edge source="Albanians" target="Turks" id="22" weight="1" />
+      <edge source="Albanians" target="Serbs" id="23" weight="1" />
+      <edge source="Turks" target="Serbs" id="24" weight="1" />
+      <edge source="Turks" target="Bosniaks" id="25" weight="1" />
+      <edge source="Serbs" target="Bosniaks" id="26" weight="1" />
+      <edge source="Serbs" target="Aromanians" id="27" weight="1" />
+      <edge source="Bosniaks" target="Aromanians" id="28" weight="1" />
+      <edge source="Alexander III" target="Macedon" id="29" weight="1" />
+      <edge source="Alexander III" target="Alexander the Great" id="30" weight="1" />
+      <edge source="Macedon" target="Alexander the Great" id="31" weight="1" />
+      <edge source="Macedon" target="Greek" id="32" weight="1" />
+      <edge source="Macedon" target="Pella" id="33" weight="1" />
+      <edge source="Macedon" target="Alexander" id="34" weight="1" />
+      <edge source="Macedon" target="Aristotle" id="35" weight="1" />
+      <edge source="Alexander the Great" target="Greek" id="36" weight="1" />
+      <edge source="Pella" target="Alexander" id="37" weight="1" />
+      <edge source="Alexander" target="Aristotle" id="38" weight="1" />
+      <edge source="Alexander" target="the age of 16" id="39" weight="1" />
+      <edge source="Aristotle" target="the age of 16" id="40" weight="1" />
+      <edge source="the age of 30" target="India" id="41" weight="1" />
+      <edge source="Cyril" target="Methodius University" id="42" weight="1" />
+      <edge source="Cyril" target="Skopje" id="43" weight="1" />
+      <edge source="Methodius University" target="Skopje" id="44" weight="1" />
+      <edge source="Saints Cyril" target="Methodius" id="45" weight="2" />
+      <edge source="Saints Cyril" target="Byzantine Christian" id="46" weight="1" />
+      <edge source="Methodius" target="Byzantine Christian" id="47" weight="1" />
+      <edge source="the Vardar River" target="Balkans" id="48" weight="1" />
+      <edge source="Roman" target="Scupi" id="49" weight="1" />
+      <edge source="Standard Macedonian" target="1945" id="50" weight="1" />
+      <edge source="Macedonian" target="Cyrillic" id="51" weight="1" />
+      <edge source="Macedonian" target="Bulgarian" id="52" weight="1" />
+      <edge source="Cyrillic" target="Bulgarian" id="53" weight="1" />
+      <edge source="Samuel" target="Tsar" id="54" weight="1" />
+      <edge source="Samuel" target="the Byzantine Empire" id="55" weight="1" />
+      <edge source="Tsar" target="997 to 1014" id="56" weight="1" />
+      <edge source="1014" target="Basil II" id="57" weight="1" />
+      <edge source="Slavic" target="Christianity" id="58" weight="1" />
+      <edge source="The Byzantine Empire" target="the Eastern Roman Empire" id="59" weight="1" />
+      <edge source="The Byzantine Empire" target="the Roman Empire" id="60" weight="1" />
+      <edge source="the Eastern Roman Empire" target="the Roman Empire" id="61" weight="1" />
+      <edge source="the Eastern Roman Empire" target="Late Antiquity" id="62" weight="1" />
+      <edge source="the Roman Empire" target="Late Antiquity" id="63" weight="1" />
+      <edge source="the Roman Empire" target="the Middle Ages" id="64" weight="1" />
+      <edge source="Late Antiquity" target="the Middle Ages" id="65" weight="1" />
+    </edges>
+  </graph>
+</gexf>

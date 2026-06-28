@@ -1,35 +1,39 @@
 # KG-RAG for Macedonian History
 
-A simple Knowledge Graph–Enriched Question Answering project for the course **Intelligent Information Systems**.
+A simple **Knowledge Graph–Enriched Question Answering** project developed for the course **Intelligent Information Systems**.
 
-This project builds a **Knowledge Graph (KG)** from a small corpus of Wikipedia texts related to **Macedonian history**, then uses the graph to improve question answering through **KG-based retrieval**.
+This project builds a small **Knowledge Graph (KG)** from Wikipedia-based texts related to **Macedonian history and geography**, then uses graph-based retrieval to improve question answering over the corpus.
 
 ## Project idea
 
-Large Language Models often answer questions using only parametric knowledge, which can lead to incomplete or hallucinated answers. This project demonstrates a simpler alternative:
+Large Language Models can produce incomplete or hallucinated answers when they rely only on internal parametric knowledge. This project demonstrates a simpler and more controlled alternative:
 
-- build a small domain-specific Knowledge Graph,
-- retrieve relevant entities and subgraphs,
-- use them to enrich question answering.
+- Build a small domain-specific Knowledge Graph
+- Retrieve relevant entities and subgraphs
+- Use them to improve question answering
+- Compare the result with a text-only baseline
+
+## Domain
 
 The selected domain is **Macedonian history and geography**, including topics such as:
-- North Macedonia
+
+- Republic of North Macedonia
 - Alexander the Great
 - Skopje
 - Ohrid
+- Macedonian language
 - Cyril and Methodius
-- Samuel of Bulgaria
+- Samuel and the Macedonian medieval context
 - Byzantine Empire
 
 ## Features
 
 - Named Entity Recognition with **spaCy**
 - Knowledge Graph construction with **NetworkX**
-- Community-aware graph structure
-- KG-based retrieval for question answering
-- Baseline vs KG-RAG comparison
-- Graph visualization
-- Evaluation in CSV and chart form
+- Query-based node retrieval
+- KG-RAG vs baseline comparison
+- Graph visualization in PNG and GEXF format
+- Evaluation output in CSV and chart form
 
 ## Project structure
 
@@ -66,7 +70,7 @@ IIS_KG/
 
 ## Installation
 
-Clone the repository and install dependencies:
+Clone the repository and install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -82,10 +86,11 @@ python main.py
 ```
 
 This will:
-- build the Knowledge Graph,
-- answer predefined questions,
-- compare KG-RAG with a baseline approach,
-- save the graph to `output/knowledge_graph.gexf`.
+
+- Build the Knowledge Graph
+- Answer predefined questions
+- Compare **KG-RAG** with a baseline method
+- Save the graph to `output/knowledge_graph.gexf`
 
 ## Run evaluation
 
@@ -99,7 +104,7 @@ This creates:
 
 ## Generate visualizations
 
-### Graph visualization
+### Knowledge Graph visualization
 
 ```bash
 python visualize_graph.py
@@ -129,16 +134,30 @@ The system currently tests the following questions:
 - What happened at the Battle of Kleidion?
 - What is the UNESCO World Heritage Site near Ohrid?
 
-## Example output
+## Methodology
 
-Example console output:
+1. A small corpus is prepared from Wikipedia summaries.
+2. **spaCy** extracts named entities such as people, places, organizations, and nationalities.
+3. A **Knowledge Graph** is built where:
+   - nodes represent entities
+   - edges represent co-occurrence relations inside sentences
+4. For each query, the system retrieves relevant nodes from the graph.
+5. **KG-RAG** ranks supporting sentences using:
+   - keyword overlap
+   - graph entity matches
+6. A baseline method ranks sentences using only keyword overlap.
 
-```text
-KG-RAG Question Answering Demo
-Graph loaded: 62 nodes, 66 edges
-```
+## Results
 
-Example evaluation result:
+The project generates:
+
+- A domain-specific Knowledge Graph
+- A `.gexf` graph file for further inspection
+- A `.png` graph visualization
+- A CSV file with evaluation metrics
+- A bar chart for entity coverage across questions
+
+Example evaluation results:
 
 - Alexander birth: 87.5% entity coverage
 - North Macedonia language: 62.5%
@@ -146,30 +165,21 @@ Example evaluation result:
 - Battle of Kleidion: 62.5%
 - UNESCO near Ohrid: 75.0%
 
-## Methodology
+## Notes on the Samuel update
 
-1. A small corpus is prepared from Wikipedia summaries.
-2. spaCy extracts named entities such as people, places, organizations, and nationalities.
-3. A Knowledge Graph is built where:
-   - nodes = entities
-   - edges = co-occurrence relations inside sentences
-4. For each query, the system retrieves relevant nodes from the graph.
-5. KG-RAG ranks answer sentences using both:
-   - keyword overlap
-   - graph entity matches
-6. A baseline method ranks sentences using only keyword overlap.
+The corpus was refined to better reflect **Samuel in a Macedonian medieval context**, instead of keeping an overly direct connection to Bulgaria in the graph. This improved the thematic structure of the Knowledge Graph and produced a clearer historical cluster around **Samuel**, **Macedonian**, and **Slavic** entities.
 
 ## Limitations
 
-- The corpus is small.
-- Relations are based on co-occurrence, not typed semantic relations.
-- The system is extractive rather than fully generative.
-- Some questions about specific events may still retrieve noisy context.
+- The corpus is relatively small
+- Relations are based on **co-occurrence**, not typed semantic relations
+- The system is **extractive**, not fully generative
+- Some event-specific questions may still retrieve noisy context
 
 ## Possible improvements
 
 - Use a larger corpus
-- Add relation extraction (`born_in`, `located_in`, `fought_at`, etc.)
+- Add typed relation extraction such as `born_in`, `located_in`, or `fought_at`
 - Integrate a local LLM for better answer generation
 - Support Macedonian-language texts directly
 - Add an interactive web interface
@@ -180,10 +190,10 @@ This project was developed for the course **Intelligent Information Systems** un
 
 **“Enriching LLM knowledge with Knowledge Graphs in a selected application domain.”**
 
-## Author notes
+## Author note
 
 This repository contains a simplified educational implementation designed to clearly demonstrate the core idea of **Knowledge Graph–Enhanced Retrieval-Augmented Question Answering**.
 
 ## License
 
-This project is for educational use.
+This project is intended for educational use.

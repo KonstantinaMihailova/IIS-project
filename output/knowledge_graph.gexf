@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2026-06-28">
+  <meta lastmodifieddate="2026-06-29">
     <creator>NetworkX 3.6.1</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -204,13 +204,13 @@
       <node id="the Vardar River" label="LOC">
         <attvalues>
           <attvalue for="0" value="Skopje" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="Balkans" label="LOC">
         <attvalues>
           <attvalue for="0" value="Skopje" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="Roman" label="NORP">
@@ -246,19 +246,19 @@
       <node id="Macedonian" label="PERSON">
         <attvalues>
           <attvalue for="0" value="Macedonian language" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="Cyrillic" label="NORP">
         <attvalues>
           <attvalue for="0" value="Macedonian language" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="Bulgarian" label="NORP">
         <attvalues>
           <attvalue for="0" value="Macedonian language" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="Lake Ohrid" label="LOC">
@@ -282,13 +282,13 @@
       <node id="Samuel" label="PERSON">
         <attvalues>
           <attvalue for="0" value="Samuel of Macedonia" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="Slavic" label="NORP">
         <attvalues>
           <attvalue for="0" value="Samuel of Macedonia" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
       <node id="present-day" label="DATE">
@@ -300,19 +300,19 @@
       <node id="1014" label="DATE">
         <attvalues>
           <attvalue for="0" value="Samuel of Macedonia" />
-          <attvalue for="1" value="5" />
+          <attvalue for="1" value="8" />
         </attvalues>
       </node>
       <node id="Basil II" label="PERSON">
         <attvalues>
           <attvalue for="0" value="Samuel of Macedonia" />
-          <attvalue for="1" value="5" />
+          <attvalue for="1" value="8" />
         </attvalues>
       </node>
       <node id="the Byzantine Empire" label="GPE">
         <attvalues>
           <attvalue for="0" value="Samuel of Macedonia" />
-          <attvalue for="1" value="5" />
+          <attvalue for="1" value="8" />
         </attvalues>
       </node>
       <node id="Byzantine Christian" label="PERSON">
@@ -324,37 +324,37 @@
       <node id="Old Church Slavonic" label="ORG">
         <attvalues>
           <attvalue for="0" value="Cyril and Methodius" />
-          <attvalue for="1" value="8" />
+          <attvalue for="1" value="9" />
         </attvalues>
       </node>
       <node id="The Byzantine Empire" label="GPE">
         <attvalues>
           <attvalue for="0" value="Byzantine Empire" />
-          <attvalue for="1" value="9" />
+          <attvalue for="1" value="12" />
         </attvalues>
       </node>
       <node id="the Eastern Roman Empire" label="ORG">
         <attvalues>
           <attvalue for="0" value="Byzantine Empire" />
-          <attvalue for="1" value="9" />
+          <attvalue for="1" value="12" />
         </attvalues>
       </node>
       <node id="the Roman Empire" label="GPE">
         <attvalues>
           <attvalue for="0" value="Byzantine Empire" />
-          <attvalue for="1" value="9" />
+          <attvalue for="1" value="12" />
         </attvalues>
       </node>
       <node id="Late Antiquity" label="WORK_OF_ART">
         <attvalues>
           <attvalue for="0" value="Byzantine Empire" />
-          <attvalue for="1" value="9" />
+          <attvalue for="1" value="12" />
         </attvalues>
       </node>
       <node id="the Middle Ages" label="LOC">
         <attvalues>
           <attvalue for="0" value="Byzantine Empire" />
-          <attvalue for="1" value="9" />
+          <attvalue for="1" value="12" />
         </attvalues>
       </node>
       <node id="Constantinople" label="ORG">
@@ -366,7 +366,7 @@
       <node id="Christianity" label="NORP">
         <attvalues>
           <attvalue for="0" value="Byzantine Empire" />
-          <attvalue for="1" value="12" />
+          <attvalue for="1" value="5" />
         </attvalues>
       </node>
     </nodes>

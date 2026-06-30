@@ -131,7 +131,7 @@ The system currently tests the following questions:
 - Where was Alexander the Great born?
 - What language do people speak in North Macedonia?
 - What is the connection between Cyril and the Slavic alphabet?
-- What happened at the Battle of Kleidion?
+- Who was Samuel and what is his connection to Macedonia?
 - What is the UNESCO World Heritage Site near Ohrid?
 
 ## Methodology
@@ -162,7 +162,7 @@ Example evaluation results:
 - Alexander birth: 87.5% entity coverage
 - North Macedonia language: 62.5%
 - Cyril and Slavic alphabet: 87.5%
-- Battle of Kleidion: 62.5%
+- Samuel and Macedonia: 62.5%
 - UNESCO near Ohrid: 75.0%
 
 ## Notes on the Samuel update
@@ -174,7 +174,7 @@ The corpus was refined to better reflect **Samuel in a Macedonian medieval conte
 - The corpus is relatively small
 - Relations are based on **co-occurrence**, not typed semantic relations
 - The system is **extractive**, not fully generative
-- Some event-specific questions may still retrieve noisy context
+- Some questions may still retrieve noisy context
 
 ## Possible improvements
 
